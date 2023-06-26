@@ -30,12 +30,12 @@ class Station(Producer):
         )
 
         # Setting topic name, number of partitions, and number of replicas
-        topic_name = "org.chicago.cta.station.arrivals"
+        topic_name = f"org.chicago.cta.station.{station_name}.arrivals"
         super().__init__(
             topic_name,
             key_schema=Station.key_schema,
             value_schema=Station.value_schema,
-            num_partitions=3,
+            num_partitions=10,
             num_replicas=1,
         )
 
