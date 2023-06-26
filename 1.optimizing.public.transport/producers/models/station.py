@@ -30,7 +30,7 @@ class Station(Producer):
         )
 
         # Setting topic name, number of partitions, and number of replicas
-        topic_name = "com.udacity.station.arrival"
+        topic_name = "org.chicago.cta.station.arrivals"
         super().__init__(
             topic_name,
             key_schema=Station.key_schema,

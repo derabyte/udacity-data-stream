@@ -27,7 +27,7 @@ class Turnstile(Producer):
             .replace("'", "")
         )
 
-        self.topic_name = "com.udacity.station.turnstile"
+        self.topic_name = "org.chicago.cta.station.turnstile"
 
         # init super producer
         super().__init__(

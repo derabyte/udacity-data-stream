@@ -70,13 +70,12 @@ class Producer:
 
         futures = client.create_topics([topic])
 
-        for future in futures:
+        for topic, future in futures.items():
             try:
                 future.result()
-                logger.info(f"SUCCESS: Topic {self.topic_name} created!")
+                logger.debug(f"SUCCESS: Topic {self.topic_name} created!")
             except Exception as e:
-                logger.fatal(f"FATAL: Topic {self.topic_name} could not be created")
-                raise
+                logger.debug(f"WARNING: Topic {self.topic_name} already exists")
 
     def close(self):
         """Prepares the producer for exit by cleaning up the producer"""

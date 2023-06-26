@@ -79,6 +79,8 @@ class KafkaConsumer:
                 logger.error(f"ERROR: Consumer message produced an error {message.error()}")
                 return 0
             else:
+                logger.info(f"SUCCESS: Message received {message.key()}")
+                self.message_handler(message)
                 return 1
 
     def close(self):

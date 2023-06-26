@@ -29,7 +29,7 @@ class Weather(Producer):
 
     def __init__(self, month):
         # init AvroProducer
-        self.topic_name = "org.chicago.cta.weather"
+        self.topic_name = "org.chicago.cta.weather.v1"
         super().__init__(
             self.topic_name,
             key_schema=Weather.key_schema,
