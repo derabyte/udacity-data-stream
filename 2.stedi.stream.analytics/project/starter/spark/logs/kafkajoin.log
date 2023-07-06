@@ -1,0 +1,58 @@
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Eric.Khatib@test.com|  0.0|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com|  2.5|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com| 29.0|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com|  8.0|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com|-29.5|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com|-20.5|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com| 28.5|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com| 10.5|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com|-33.0|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com|-13.0|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com| -6.0|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com| -0.5|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com| 22.0|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com| 18.5|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com|  8.5|Eric.Khatib@test.com|     1944|
+|Ashley.Mitra@test...| -4.0|Ashley.Mitra@test...|     1950|
+|Ashley.Mitra@test...| -4.0|Ashley.Mitra@test...|     1950|
+|Ashley.Mitra@test...| -3.0|Ashley.Mitra@test...|     1950|
+|Ashley.Mitra@test...| -3.5|Ashley.Mitra@test...|     1950|
+|Ashley.Mitra@test...| -3.5|Ashley.Mitra@test...|     1950|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++--------------------+-----+--------------------+---------+
+|            customer|score|               email|birthYear|
++--------------------+-----+--------------------+---------+
+|Eric.Khatib@test.com| -1.0|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com|  2.5|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com|  8.0|Eric.Khatib@test.com|     1944|
+|Eric.Khatib@test.com|-16.0|Eric.Khatib@test.com|     1944|
+|Ashley.Mitra@test...| -2.0|Ashley.Mitra@test...|     1950|
+|Ashley.Mitra@test...| -2.5|Ashley.Mitra@test...|     1950|
+|Ashley.Mitra@test...| -2.5|Ashley.Mitra@test...|     1950|
+|Ashley.Mitra@test...| -2.0|Ashley.Mitra@test...|     1950|
+|Ashley.Mitra@test...| -2.5|Ashley.Mitra@test...|     1950|
+|Travis.Olson@test...| -8.0|Travis.Olson@test...|     1962|
+|Travis.Olson@test...|-13.5|Travis.Olson@test...|     1962|
+|Travis.Olson@test...| -1.0|Travis.Olson@test...|     1962|
+|Travis.Olson@test...| -0.5|Travis.Olson@test...|     1962|
+|Chris.Khatib@test...|  3.5|Chris.Khatib@test...|     1963|
+|Chris.Khatib@test...|-16.5|Chris.Khatib@test...|     1963|
+|Chris.Khatib@test...| -3.5|Chris.Khatib@test...|     1963|
+|Chris.Khatib@test...| -1.5|Chris.Khatib@test...|     1963|
+|Dan.Staples@test.com|-16.5|Dan.Staples@test.com|     1939|
+|Dan.Staples@test.com| 13.0|Dan.Staples@test.com|     1939|
+|Dan.Staples@test.com| 20.0|Dan.Staples@test.com|     1939|
++--------------------+-----+--------------------+---------+
+only showing top 20 rows
+
